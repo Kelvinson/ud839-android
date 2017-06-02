@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/wangdong/CourseWorkOn/ud839/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/Users/wangdong/CourseWorkOn/ud839/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d32167080b9f1a8d133312a22f5d69259b856423/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wangdong/.android/build-cache/0c31a41242b23abebc5d5a0c4825ae07f343a42f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Users/wangdong/CourseWorkOn/ud839/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_65ce940352c1efebd8cf7bc2a95ed98af477fc32/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wangdong/.android/build-cache/e625bd4eecaaa785ccfc2365c693c02ccc8ce8bd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/wangdong/CourseWorkOn/ud839/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b371bf4f1455a56e716525efd47b552a16376917/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wangdong/.android/build-cache/8c6e585b3f10956ceca593d0b7b07fd1bf0d8174/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/Users/wangdong/CourseWorkOn/ud839/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_731bce2080f201aeeaf06cced6d54beb3a9443c9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wangdong/.android/build-cache/31f96a227e11bb23899329dbb473284650bb858e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/wangdong/CourseWorkOn/ud839/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_49a13118c0cba4918ee8f5b0ca7dc98f02f9fe91/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wangdong/.android/build-cache/82d6161bf2f3fe13c2c468631c728df449d1a3e7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/Users/wangdong/CourseWorkOn/ud839/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1379a24b88045f09125706561cd7a6231055ac12/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wangdong/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/wangdong/CourseWorkOn/ud839/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_5c71d9fe3e2546fc75ea658d903b626c353e5d97/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wangdong/CourseWorkOn/ud839/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e9a7b0b2e163c8563d6508fb69e1111333d10cbb">
+        <dex dex="/Users/wangdong/CourseWorkOn/ud839/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ac81ea3dd8b08e4a9b3e82370f1be65c5c2c71aa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wangdong/.android/build-cache/639760b4a3c231223a0b2f07ed48ae2cf325667a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/Users/wangdong/CourseWorkOn/ud839/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_04cd59016f378e40811b9a0830f313a9f9820bd0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wangdong/.android/build-cache/31f96a227e11bb23899329dbb473284650bb858e/output/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Users/wangdong/CourseWorkOn/ud839/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_5cb2da30eb1c2db3a0156d26cf2a8d0fbd9cfdcd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wangdong/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/wangdong/CourseWorkOn/ud839/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_1f8fc0ea702d3fb7d9a56da37875df90c08bd52a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wangdong/.android/build-cache/a4157199cd11905302275ec574ef716e3e72921f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/Users/wangdong/CourseWorkOn/ud839/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f23f348097835f142edc2d16228afca7cd2ed1db/classes.dex" />
+    </item>
+
+</items>

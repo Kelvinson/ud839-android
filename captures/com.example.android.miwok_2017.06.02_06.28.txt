@@ -1,0 +1,82 @@
+TASK com.example.android.miwok id=103
+  ACTIVITY com.example.android.miwok/.NumbersActivity 7bc120 pid=15973
+    Local FragmentActivity 8c51f35 State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@36e9fca
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@36e9fca
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.DecorView{b05c53b V.E..... ... 0,0-1080,1920}
+        android.widget.LinearLayout{a2f2458 V.E..... ... 0,0-1080,1794}
+          android.view.ViewStub{73579b1 G.E..... ... 0,0-0,0 #10203ef android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{cbeee96 V.E..... ... 0,63-1080,1794}
+            android.support.v7.widget.ActionBarOverlayLayout{8017a17 V.E..... ... 0,0-1080,1731 #7f0c0060 app:id/decor_content_parent}
+              android.support.v7.widget.ContentFrameLayout{9e2e04 V.E..... ... 0,147-1080,1731 #1020002 android:id/content}
+                android.widget.GridView{76ffed VFED.VC. F.. 0,0-1080,1584 #7f0c0075 app:id/list}
+                  android.widget.LinearLayout{2f35e22 V.E..... ... 42,42-540,228}
+                    android.support.v7.widget.AppCompatTextView{899a0b3 V.ED.... ... 42,42-498,93 #7f0c007f app:id/defaultTranslation}
+                    android.support.v7.widget.AppCompatTextView{5d22670 V.ED.... ... 42,135-498,186 #7f0c0080 app:id/miwokTranslation}
+                  android.widget.LinearLayout{cd0ade9 V.E..... ... 540,42-1038,228}
+                    android.support.v7.widget.AppCompatTextView{50d3a6e V.ED.... ... 42,42-498,93 #7f0c007f app:id/defaultTranslation}
+                    android.support.v7.widget.AppCompatTextView{d83950f V.ED.... ... 42,135-498,186 #7f0c0080 app:id/miwokTranslation}
+                  android.widget.LinearLayout{10b399c V.E..... ... 42,228-540,414}
+                    android.support.v7.widget.AppCompatTextView{7fd3fa5 V.ED.... ... 42,42-498,93 #7f0c007f app:id/defaultTranslation}
+                    android.support.v7.widget.AppCompatTextView{ed68f7a V.ED.... ... 42,135-498,186 #7f0c0080 app:id/miwokTranslation}
+                  android.widget.LinearLayout{36e732b V.E..... ... 540,228-1038,414}
+                    android.support.v7.widget.AppCompatTextView{b605388 V.ED.... ... 42,42-498,93 #7f0c007f app:id/defaultTranslation}
+                    android.support.v7.widget.AppCompatTextView{4a73121 V.ED.... ... 42,135-498,186 #7f0c0080 app:id/miwokTranslation}
+                  android.widget.LinearLayout{cae2946 V.E..... ... 42,414-540,600}
+                    android.support.v7.widget.AppCompatTextView{8df1707 V.ED.... ... 42,42-498,93 #7f0c007f app:id/defaultTranslation}
+                    android.support.v7.widget.AppCompatTextView{66b2034 V.ED.... ... 42,135-498,186 #7f0c0080 app:id/miwokTranslation}
+                  android.widget.LinearLayout{ba4be5d V.E..... ... 540,414-1038,600}
+                    android.support.v7.widget.AppCompatTextView{1393d2 V.ED.... ... 42,42-498,93 #7f0c007f app:id/defaultTranslation}
+                    android.support.v7.widget.AppCompatTextView{5cc1ca3 V.ED.... ... 42,135-498,186 #7f0c0080 app:id/miwokTranslation}
+                  android.widget.LinearLayout{1b40ba0 V.E..... ... 42,600-540,786}
+                    android.support.v7.widget.AppCompatTextView{2f3e359 V.ED.... ... 42,42-498,93 #7f0c007f app:id/defaultTranslation}
+                    android.support.v7.widget.AppCompatTextView{f31b1e V.ED.... ... 42,135-498,186 #7f0c0080 app:id/miwokTranslation}
+                  android.widget.LinearLayout{f9dfff V.E..... ... 540,600-1038,786}
+                    android.support.v7.widget.AppCompatTextView{ade41cc V.ED.... ... 42,42-498,93 #7f0c007f app:id/defaultTranslation}
+                    android.support.v7.widget.AppCompatTextView{8765c15 V.ED.... ... 42,135-498,186 #7f0c0080 app:id/miwokTranslation}
+                  android.widget.LinearLayout{7b1cb2a V.E..... ... 42,786-540,972}
+                    android.support.v7.widget.AppCompatTextView{f167d1b V.ED.... ... 42,42-498,93 #7f0c007f app:id/defaultTranslation}
+                    android.support.v7.widget.AppCompatTextView{493aeb8 V.ED.... ... 42,135-498,186 #7f0c0080 app:id/miwokTranslation}
+                  android.widget.LinearLayout{c6da491 V.E..... ... 540,786-1038,972}
+                    android.support.v7.widget.AppCompatTextView{bf96ff6 V.ED.... ... 42,42-498,93 #7f0c007f app:id/defaultTranslation}
+                    android.support.v7.widget.AppCompatTextView{795cff7 V.ED.... ... 42,135-498,186 #7f0c0080 app:id/miwokTranslation}
+              android.support.v7.widget.ActionBarContainer{30fe64 V.ED.... ... 0,0-1080,147 #7f0c0061 app:id/action_bar_container}
+                android.support.v7.widget.Toolbar{7b6f8cd V.E..... ... 0,0-1080,147 #7f0c0062 app:id/action_bar}
+                  android.widget.TextView{4449582 V.ED.... ... 42,38-259,109}
+                  android.support.v7.widget.ActionMenuView{b4d7493 V.E..... ... 1080,0-1080,147}
+                android.support.v7.widget.ActionBarContextView{6319cd0 G.E..... ... 0,0-0,0 #7f0c0063 app:id/action_context_bar}
+        android.view.View{9c754c9 V.ED.... ... 0,1794-1080,1920 #1020030 android:id/navigationBarBackground}
+        android.view.View{22a87ce V.ED.... ... 0,0-1080,63 #102002f android:id/statusBarBackground}
+
+  ACTIVITY com.example.android.miwok/.MainActivity 6fadabc pid=15973
+    Local FragmentActivity 252a90c State:
+      mCreated=truemResumed=false mStopped=true mReallyStopped=true
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@8d0c6ef
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@8d0c6ef
+      mCurState=2 mStateSaved=true mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.DecorView{95bb5fc I.E..... ... 0,0-1080,1920}
+        android.widget.LinearLayout{a677485 V.E..... ... 0,0-1080,1794}
+          android.view.ViewStub{76b52da G.E..... ... 0,0-0,0 #10203ef android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{a8ce30b V.E..... ... 0,63-1080,1794}
+            android.support.v7.widget.ActionBarOverlayLayout{ac35e8 V.E..... ... 0,0-1080,1731 #7f0c0060 app:id/decor_content_parent}
+              android.support.v7.widget.ContentFrameLayout{b2fd401 V.E..... ... 0,147-1080,1731 #1020002 android:id/content}
+                android.widget.LinearLayout{fbbc2a6 V.E..... ... 0,0-1080,1584}
+                  android.support.v7.widget.AppCompatTextView{aa4a4e7 V.ED..C. ... 0,0-1080,231 #7f0c0071 app:id/numbers}
+                  android.support.v7.widget.AppCompatTextView{402c894 V.ED..C. ... 0,231-1080,462 #7f0c0072 app:id/family}
+                  android.support.v7.widget.AppCompatTextView{4c4af3d V.ED..C. ... 0,462-1080,693 #7f0c0073 app:id/colors}
+                  android.support.v7.widget.AppCompatTextView{b516332 V.ED..C. ... 0,693-1080,924 #7f0c0074 app:id/phrases}
+              android.support.v7.widget.ActionBarContainer{88ca883 V.ED.... ... 0,0-1080,147 #7f0c0061 app:id/action_bar_container}
+                android.support.v7.widget.Toolbar{78dda00 V.E..... ... 0,0-1080,147 #7f0c0062 app:id/action_bar}
+                  android.widget.TextView{bd20239 V.ED.... ... 42,38-199,109}
+                  android.support.v7.widget.ActionMenuView{62e807e V.E..... ... 1080,0-1080,147}
+                android.support.v7.widget.ActionBarContextView{c6749df G.E..... ... 0,0-0,0 #7f0c0063 app:id/action_context_bar}
+        android.view.View{1f6962c V.ED.... ... 0,1794-1080,1920 #1020030 android:id/navigationBarBackground}
+        android.view.View{9c788f5 V.ED.... ... 0,0-1080,63 #102002f android:id/statusBarBackground}
