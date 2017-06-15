@@ -17,6 +17,7 @@ package com.example.android.miwok;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
+        // Set up the media player for playing the recording of the miwok words.
 
         //Find the View that shows the numbers category
         TextView numbers = (TextView) findViewById(R.id.numbers);
@@ -54,8 +56,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this, FamilyActivity.class);
-                Toast.makeText(view.getContext(),
-                        "Open the list of family", Toast.LENGTH_SHORT).show();
+                Toast.makeText(view.getContext(), "Open the list of family", Toast.LENGTH_SHORT).show();
                 startActivity(i);
             }
         });
