@@ -12,7 +12,15 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class FamilyActivity extends AppCompatActivity {
+
     MediaPlayer mediaPlayer =  new MediaPlayer();
+
+    private MediaPlayer.OnCompletionListener mCompletitionListener = new MediaPlayer.OnCompletionListener() {
+        @Override
+        public void onCompletion(MediaPlayer mp) {
+            mediaRelease();
+        }
+    };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,7 +52,19 @@ public class FamilyActivity extends AppCompatActivity {
                 Toast.makeText(FamilyActivity.this,"Family Activity Item clicked",Toast.LENGTH_SHORT);
                 mediaPlayer = MediaPlayer.create(FamilyActivity.this,word.getmAudioResourceId());
                 mediaPlayer.start();
+
+                // set on completition listener to release the resource right after the music player
+                // stopping playihg music
+                mediaPlayer.setOnCompletionListener(mCompletitionListener);
             }
         });
+    }
+
+
+    private void mediaRelease() {
+        if (mediaPlayer != null) {
+            mediaPlayer.release();
+            mediaPlayer = null;
+        }
     }
 }

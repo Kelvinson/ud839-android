@@ -1,5 +1,6 @@
 package com.example.android.miwok;
 
+import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,15 +13,46 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
+import static android.media.AudioManager.AUDIOFOCUS_GAIN;
+import static android.media.AudioManager.AUDIOFOCUS_GAIN_TRANSIENT;
+import static android.media.AudioManager.AUDIOFOCUS_LOSS;
+import static android.media.AudioManager.AUDIOFOCUS_LOSS_TRANSIENT;
+import static android.media.AudioManager.AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK;
+import static android.media.AudioManager.AUDIOFOCUS_REQUEST_GRANTED;
 import static android.media.CamcorderProfile.get;
 
 public class ColorsActivity extends AppCompatActivity {
 
     private MediaPlayer mediaPlayer = new MediaPlayer();
+
+    private AudioManager mAudioManager;
+
+    private AudioManager.OnAudioFocusChangeListener mOnAudioFocusChangeListener = new AudioManager.OnAudioFocusChangeListener() {
+        @Override
+        public void onAudioFocusChange(int focusChange) {
+            if (focusChange == AUDIOFOCUS_GAIN) {
+                mediaPlayer.start();
+            } else if (focusChange == AUDIOFOCUS_LOSS) {
+                mediaRelease();
+            } else if (focusChange == AUDIOFOCUS_LOSS_TRANSIENT || focusChange == AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK) {
+                mediaPlayer.pause();
+                mediaPlayer.seekTo(0);
+            }
+        }
+    };
+
+    private MediaPlayer.OnCompletionListener onCompletionListener = new MediaPlayer.OnCompletionListener() {
+        @Override
+        public void onCompletion(MediaPlayer mp) {
+            mediaRelease();
+        }
+    };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.word_list);
+
+        mAudioManager = (AudioManager) getSystemService(AUDIO_SERVICE);
 
         final ArrayList<Word> colors = new ArrayList<Word>();
         colors.add(new Word("red","wetetti",R.drawable.color_red,R.raw.color_red));
@@ -40,12 +72,28 @@ public class ColorsActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Word word = colors.get(position);
-                Toast.makeText(ColorsActivity.this,"Color Item Clicked",Toast.LENGTH_SHORT);
-                mediaPlayer = MediaPlayer.create(ColorsActivity.this,word.getmAudioResourceId());
-                mediaPlayer.start();
+
+                int result = mAudioManager.requestAudioFocus(mOnAudioFocusChangeListener,AudioManager.STREAM_MUSIC,AUDIOFOCUS_GAIN_TRANSIENT);
+
+                if (result == AUDIOFOCUS_REQUEST_GRANTED) {
+
+                    Toast.makeText(ColorsActivity.this, "Color Item Clicked", Toast.LENGTH_SHORT);
+                    mediaPlayer = MediaPlayer.create(ColorsActivity.this, word.getmAudioResourceId());
+                    mediaPlayer.start();
+                    mediaPlayer.setOnCompletionListener(onCompletionListener);
+
+                }
             }
         });
 
     }
+
+    private void mediaRelease() {
+        if (mediaPlayer != null) {
+            mediaPlayer.release();
+            mediaPlayer = null;
+        }
+    }
+
 
 }
