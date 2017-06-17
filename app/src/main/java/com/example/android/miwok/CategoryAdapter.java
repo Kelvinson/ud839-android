@@ -22,11 +22,9 @@ public class CategoryAdapter extends FragmentPagerAdapter {
             return new FamilyFragment();
         } else if (position == 2) {
             return new ColorsFragment();
-        } else if (position == 3) {
+        } else  {
             return new PhrasesFragment();
         }
-
-        return null;
     }
 
     @Override
