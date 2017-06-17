@@ -19,6 +19,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -43,7 +44,9 @@ public class MainActivity extends AppCompatActivity {
 
         viewPager.setAdapter(adapter);
         // Set up the media player for playing the recording of the miwok words.
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
 
+        tabLayout.setupWithViewPager(viewPager);
         //Find the View that shows the numbers category
 //        TextView numbers = (TextView) findViewById(R.id.numbers);
 //
